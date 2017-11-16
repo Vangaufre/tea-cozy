@@ -1,0 +1,168 @@
+html, body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  margin: 0px;
+  text-align: center;
+}
+
+.tab {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+.tab .container {
+  height: 100%;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+.logo {
+  padding-left: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 69px;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.mission-text {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin-top: 300px;
+}
+
+#month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.item {
+  display: block;
+  flex-direction: column;
+  margin: 15px;
+  width: 300px;
+  height: 200px;
+}
+
+.item img {
+  display: block;
+  flex-grow: 1;
+  width: 300px;
+  height: 200px;
+}
+
+.item p {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.img-container-two {
+  display: flex;
+  padding-top: 30px;
+}
+
+#locations {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-bottom: 80px;
+}
+
+.title {
+  display: flex;
+}
+
+.all-blocks{
+  display: flex;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+.block p {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer {
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.copyright span{
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
